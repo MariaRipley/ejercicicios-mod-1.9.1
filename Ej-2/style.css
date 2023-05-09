@@ -1,0 +1,33 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: 20vh 40vh 20vh;
+}
+
+.item {
+  color: lightgoldenrodyellow;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item1 {
+  background-color: lightpink;
+  grid-column: span 12;
+}
+
+.item2 {
+  background-color: darkslateblue;
+  grid-column: span 4;
+}
+
+.item3 {
+  background-color: brown;
+  grid-column: span 8;
+}
+
+.item4 {
+  background-color: skyblue;
+  grid-column: span 12;
+}
